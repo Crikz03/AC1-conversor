@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.conversor_240005"
-    compileSdk = 34
+    namespace = "elizalde.chris.conversor_240005"
+    compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.conversor_240005"
+        applicationId = "elizalde.chris.conversor_240005"
         minSdk = 21
-        targetSdk = 34
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 

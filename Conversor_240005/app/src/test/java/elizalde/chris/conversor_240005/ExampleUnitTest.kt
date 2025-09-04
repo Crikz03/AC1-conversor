@@ -1,4 +1,4 @@
-package com.example.conversor_240005
+package elizalde.chris.conversor_240005
 
 import org.junit.Test
 
