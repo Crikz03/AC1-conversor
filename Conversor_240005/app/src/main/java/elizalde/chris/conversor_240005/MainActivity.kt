@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
         val buttonPeso: Button = findViewById(R.id.buttonPeso)
         val buttonLongitud: Button = findViewById(R.id.buttonLongitud)
         val buttonVolumen: Button = findViewById(R.id.buttonVolumen)
+        val criSign = ":D"
         val txtConvertir: TextView = findViewById(R.id.txtConvertir)
         val edtTxtValor: EditText = findViewById(R.id.edtTxtValor)
         val txtResultadoConversion: TextView = findViewById(R.id.txtResultadoConversion)
