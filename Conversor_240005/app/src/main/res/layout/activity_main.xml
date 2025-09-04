@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo"
     tools:context=".MainActivity">
 
     <Button
@@ -14,6 +15,8 @@
         android:layout_marginStart="52dp"
         android:layout_marginTop="64dp"
         android:text="Temperatura"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/green"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonLongitud" />
 
@@ -24,6 +27,8 @@
         android:layout_marginTop="75dp"
         android:layout_marginEnd="64dp"
         android:text="Peso"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
 
@@ -34,6 +39,8 @@
         android:layout_marginStart="64dp"
         android:layout_marginTop="75dp"
         android:text="Longitud"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
 
@@ -44,6 +51,8 @@
         android:layout_marginTop="64dp"
         android:layout_marginEnd="56dp"
         android:text="Volumen"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonPeso" />
 
@@ -52,7 +61,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
-        android:text="Convertir"
+        android:text="Seleccione una unidad"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonTemperatura" />
@@ -62,7 +71,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:text="TheConversioinador 🗣️ "
+        android:text="TheConversio-inador 🗣️ "
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -71,10 +80,11 @@
         android:id="@+id/edtTxtValor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="38dp"
         android:ems="10"
+        android:hint="Ingresa el valor"
         android:inputType="text"
-        android:text="Ingresa el valor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -84,7 +94,7 @@
         android:id="@+id/txtResultadoConversion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="35dp"
         android:text="Resultado: "
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.519"
@@ -95,9 +105,9 @@
         android:id="@+id/confirmConversion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="95dp"
         android:text="Confirma conversion"
-        android:visibility="visible"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtResultadoConversion" />
